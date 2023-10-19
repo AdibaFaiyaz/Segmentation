@@ -1,0 +1,13 @@
+train: D:\work\Adeeb\DataScience\SEGMENTATION\instane_segmenation\train\images
+val: D:\work\Adeeb\DataScience\SEGMENTATION\instane_segmenation\valid\images
+test: D:\work\Adeeb\DataScience\SEGMENTATION\instane_segmenation\test\images
+
+nc: 1
+names: ['road']
+
+roboflow:
+  workspace: adeeb-faiyaz-mcrmg
+  project: custom-road-instance-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adeeb-faiyaz-mcrmg/custom-road-instance-detection/dataset/1
